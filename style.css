@@ -10,5 +10,32 @@ body {
     font-size: 18px;
     font-family: 'Signika', sans-serif;
     color: var(--secondary);
+}
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+.navbar a {
+    font-size: 1.5rem;
+    padding: 10px;
+    text-decoration: none;
+    color:var(--secondary);
+    margin: 10px;
+
+}
+
+.navbar a:hover {
+    border-bottom: var(--primary) solid;
 }
