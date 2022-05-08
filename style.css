@@ -288,3 +288,158 @@ footer {
     text-decoration: none;
     font-size: 1rem;
 }
+
+
+
+/*contact form*/
+
+form {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.form>label>input {
+    background-color: var(--dark2);
+    border-radius: 10px;
+    padding: 10px 60px;
+    color: var(--secondary);
+    outline:none;
+    opacity: .7;
+    width: 100%;
+}
+.form>label>textarea {
+    background-color: var(--dark2);
+    border-radius: 10px;
+    padding: 50px;
+    color: var(--secondary);
+    outline: none;
+    opacity: .7;
+    width: 100%;
+}
+label {
+    padding: 5px;
+    color: var(--primary);
+}
+.form>button {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*circle profile*/
+
+.profile div {
+    position: absolute;
+
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+
+}
+
+.square {
+    width: 320px;
+    height: 450px;
+    background-color: var(--dark1);
+    opacity: 0.7;
+    z-index: 10;
+    top:70px;
+
+}
+
+.circle-trans {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    border: solid 30px var(--primary);
+    opacity: .2;
+    z-index: 19;
+    top:90px;
+
+}
+
+.circle {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: solid 15px var(--primary);
+    z-index: 21;
+    top:120px;
+
+}
+
+.profile-img {
+    top:134px;
+    z-index: 20;
+}
+
+.profile-img img {
+    width: 202px;
+    height: 202px;
+    border-radius: 50%;
+
+}
+
+.square-text{
+    font-size: 1.9rem;
+    color: var(--secondary);
+    top:380px;
+    z-index: 11;
+
+}
+.square-text-2 {
+    font-size: 1rem;
+    color: var(--secondary);
+    top: 418px;
+    z-index: 11;
+}
+
+.square-text-3 {
+    font-size: 1.3rem;
+    color: var(--secondary);
+    top:490px;
+    z-index: 11;
+}
+.square-text-3:hover {
+    border-bottom: var(--primary)solid;
+}
+
+.square-text-3 a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+.contact-icon {
+    top:450px;
+    z-index: 11;
+
+}
+.contact-icon img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+.contact-icon img:hover {
+    transform: scale(1.2);
+}
+
